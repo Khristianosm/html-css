@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(121, 153, 113);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(0, 0, 0);
+            padding: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 1px white;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.897);
+            font-weight: bold;           
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;                   
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: rgb(114, 199, 214);
+                                    
+        }
+
+        article > aside {
+            background-color: gray;
+
+        }
+
+        aside > p {
+            text-align: end;
+            color: white;
+            font-weight: bold;
+        }
+           
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-left: 10px;
+            padding: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem rem corporis ullam vel explicabo voluptatum molestias sequi illo alias non, labore ipsum quibusdam sunt nisi aliquam neque maxime nostrum rerum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia architecto voluptatibus, laborum molestias debitis dicta cupiditate, aperiam vel voluptatem modi non officiis fuga maxime, iure aut iste obcaecati illo!</p>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem rem corporis ullam vel explicabo voluptatum molestias sequi illo alias non, labore ipsum quibusdam sunt nisi aliquam neque maxime nostrum rerum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia architecto voluptatibus, laborum molestias debitis dicta cupiditate, aperiam vel voluptatem modi non officiis fuga maxime, iure aut iste obcaecati illo!</p>
+
+               <aside>
+                  <p>Artigo escrito por Hanz franz Muller</p>
+               </aside>
+            </article>
+               
+            <article>
+                  <h2>As leis da física</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem rem corporis ullam vel explicabo voluptatum molestias sequi illo alias non, labore ipsum quibusdam sunt nisi aliquam neque maxime nostrum rerum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia architecto voluptatibus, laborum molestias debitis dicta cupiditate, aperiam vel voluptatem modi non officiis fuga maxime, iure aut iste obcaecati illo!</p>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem rem corporis ullam vel explicabo voluptatum molestias sequi illo alias non, labore ipsum quibusdam sunt nisi aliquam neque maxime nostrum rerum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia architecto voluptatibus, laborum molestias debitis dicta cupiditate, aperiam vel voluptatem modi non officiis fuga maxime, iure aut iste obcaecati illo!</p> 
+                <aside>
+                  <p>Teoria de Albert Einstein</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Christiano Melo &trade;</p>
+    </footer>
+    
+</body>
+</html>

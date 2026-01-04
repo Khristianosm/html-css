@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo imagens</title>
+    <link rel="shortcut icon" href="favi.icon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/chrisday-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/chrisday-m.jpg" type="image/jpg">
+        <img src="imagens/chrisday-g.jpg" alt="imagem flexivel">
+    </picture>
+    <picture>    
+        <source media="(max-width:750px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+
+    </picture>
+
+    
+</body>
+</html>

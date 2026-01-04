@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinâmicas</H1> <!--São imagens que se adaptam a diversos tamanho de tela-->
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+       <source media="(max-width:750px )" srcset="imagens/chrisday-p.jpg" type="image/jpg">
+       <source media="(max-width: 1050px )" srcset="imagens/chrisday-m.jpg" type="image/jpg">
+       <source media="(max-width:1350px )" srcset="imagens/chrisday-g.jpg" type="image/jpg">
+       <img src="imagens/chrisday-ex.jpg" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios e html5</p>
+    <audio src="midia/Cindy Lauper-Time after time.mp3" controls autoplay> </audio>
+
+</body>
+</html>
