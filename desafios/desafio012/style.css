@@ -10,7 +10,6 @@
     --fonte3: "Sriracha", "cursive";
 }
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -19,8 +18,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgrey;  
-    font-family: var(--fonte1);
-    
+    font-family: var(--fonte1);    
 }
 
 header {
@@ -43,8 +41,7 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
 
 header a:hover, footer a:hover {
@@ -60,23 +57,41 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding: 1em;
+}
+
 section.normal {
     background-color: white;
-    color: black;
-    
+    color: black;    
 }
 
 section.imagem {
     background-color: rgb(88, 117, 88);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.473);
+    text-shadow: 1px 1px 0px black;
 }
 
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;    
+}
+
+section#img02 { 
+    background-image: url(imagens/background002.jpg);
+    background-image: right center;    
+}
+ 
 footer {
     background-color: black;
     color: white;
